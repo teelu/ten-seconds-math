@@ -24,9 +24,19 @@
           <input type="text" class="form-control text-center" placeholder="answer" id="submit-answer">
           <div class="options">
             <label> <input type="checkbox" id="catify" class="text-center"> Everyone gets a cat! </label>
+            <input id="the-limit" type="range" min="1" max="100" value="25" /><label id="show-limit"> 25</label>
+            <div id="arithmetic">
+              <label> <input value="+" type="checkbox" id="add" class="text-center math-options" checked="true"> + </label>
+              <label> <input type="checkbox" value="-" id="subtract" class="text-center math-options"> - </label>
+              <label> <input type="checkbox" value="*" id="multiply" class="text-center math-options"> * </label>
+              <label> <input type="checkbox" value="/" id="divide" class="text-center math-options"> / </label>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <audio id="player" src="audio/meow.wav" type="audio/mpeg">
+      WHY YOU NO LIKE MEOWS?
+    </audio>
   </body>
 </html>

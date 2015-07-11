@@ -1,5 +1,6 @@
 body {
   background-color:rgba(39, 174, 96,1.0);
+  overflow:hidden;
 }
 
 .container-fluid{
